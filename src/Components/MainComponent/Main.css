@@ -1,0 +1,101 @@
+
+.Main{
+    height: 800px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.Carousel{
+    margin-top: 120px;
+    height: 400px;
+}
+
+.slide-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%; 
+    background-color: #F5FCFF;
+    border-radius: 40px;
+    margin-bottom: 40px;
+}
+.slide-content p{
+    width: 300px;
+    text-align: center;
+    color:#394F8B;
+    padding: 20px;
+}
+
+.slide-content img {
+    max-width: 60%; 
+    max-height: 60%;
+    width: auto;
+}
+.Skills{
+   max-width:450px;
+    margin-top: 180px;
+}
+.Skills h3{
+    display: flex;
+    justify-content: end;
+    color: #394F8B;
+    font-size: 22px;
+}
+.css-1qzevvg img{
+    cursor: pointer;
+    display: flex;
+    filter: brightness(3);
+}
+@media only screen and (max-width: 1024px) {
+    .Main{
+        height: 700px;
+        width: 100%;
+        overflow: hidden;
+    }
+    
+    .Carousel{
+        margin-top: 50px;
+        height: 250px;
+       
+        width: auto;
+    }
+    
+    .slide-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100%; 
+        background-color: #F5FCFF;
+        border-radius: 40px;
+        margin-bottom: 40px;
+    }
+    .slide-content p{
+        width: 200px;
+        text-align: center;
+        color:#394F8B;
+        padding-top: 20px;
+        font-size: 14px;
+    }
+    
+    .slide-content img {
+        max-width: 30%; 
+        max-height: 40%;
+        width: auto;
+    }
+    .Skills{
+       max-width:100%;
+        margin-top: 120px;
+    }
+    .Skills h3{
+        display: flex;
+        justify-content: center;
+        color: #394F8B;
+        font-size: 22px;
+    }
+    .css-1qzevvg img{
+        cursor: pointer;
+        display: flex;
+    }
+}

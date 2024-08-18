@@ -1,0 +1,75 @@
+
+
+.Section2 {
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.PortfolioContainer {
+    display: flex;
+    justify-content: space-between;
+    color: #394F8B;
+    width: 100%; 
+    max-width: 1200px; 
+    padding: 20px; 
+    margin-bottom: 40px;
+}
+
+.gitHubButton button {
+    height: 50px;
+    width: 180px;
+    border: 2px solid #394F8B;
+    color: #394F8B;
+    background-image: url("../../Assets/Images/github.png");
+    background-repeat: no-repeat;
+    background-size: 30px;
+    background-position: 10px;
+    padding-left: 30px;
+    cursor: pointer;
+}
+.PortfolioBox{
+    display: flex;
+    text-align: center;
+}
+.CardButton{
+    font-weight: bold;
+}
+@media only screen and (max-width: 1024px) {
+    .Section2 {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .PortfolioContainer {
+        display: flex;
+        justify-content: space-between;
+        color: #394F8B;
+        width: 100%; 
+        max-width: 1200px; 
+        padding: 20px; 
+        margin-bottom: 40px;
+    }
+    
+    .gitHubButton button {
+        height: 50px;
+        width: 170px;
+        border: 2px solid #394F8B;
+        color: #394F8B;
+        background-image: url("../../Assets/Images/github.png");
+        background-repeat: no-repeat;
+        background-size: 30px;
+        background-position: 10px;
+        padding-left: 40px;
+        cursor: pointer;
+    }
+    .PortfolioBox{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}

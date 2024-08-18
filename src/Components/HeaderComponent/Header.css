@@ -1,0 +1,170 @@
+ 
+.HeaderContainer {
+    height: 700px;
+}
+
+.Logo img {
+    margin-top: 10px;
+}
+
+.Navigation {
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+    right: 0; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px; 
+    height: 90px;
+    border-bottom: 2px solid #394F8B;
+    background-color: #FFF; 
+    z-index: 1000;
+}
+
+.UlList {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    cursor: pointer;
+    color: #394F8B;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.Contact button {
+    height: 50px;
+    width: 170px;
+    border: 2px solid #394F8B;
+    text-align: center;
+    color: #394F8B;
+    cursor: pointer;
+    font-weight: bold;
+    background-image: url("../../Assets/Images/contact.png");
+    background-repeat: no-repeat;
+    background-size: 30px;
+    background-position: 10px;
+    padding-left: 30px;
+}
+
+.Header2 {
+    display: flex;
+    justify-content: center;
+    background-color: #F5FCFF;
+    padding-top: 120px;
+    height: 700px;
+    gap: 150px;
+}
+
+.TextAboutMe {
+    margin-top: 50px;
+    max-width: 600px;
+    font-size: 20px;
+}
+
+.ModelContainer {
+    width: 500px;
+    height: 400px;
+}
+
+.TextAboutMe span {
+    font-size: 35px;
+    font-weight: bold;
+    color: #394F8B;
+}
+
+.TouchButton button {
+    height: 50px;
+    margin-top: 40px;
+    max-width: 100%;
+    border: none;
+    background-color: #394F8B;
+    color: #F5FCFF;
+    cursor: pointer;
+}
+.Burger {
+    display: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+  
+  .bm-burger-button {
+    position: absolute;
+    width: 36px;
+    height: 25px;
+    right: 36px;
+    top: 30px;
+  }
+  
+  .bm-burger-bars {
+    background:#394F8B;
+  }
+  
+  .bm-cross {
+    background: #F5FCFF;
+  }
+  
+  .bm-menu {
+   background-color: #394F8B;
+    padding: 3.5em 4.5em ;
+    line-height: 60px;
+    font-size:20px;  
+  }
+  .bm-menu a{
+    text-decoration: none;
+    color: #F5FCFF;
+  }
+
+  
+
+  
+  @media only screen and (max-width: 1024px) {
+    .UlList{
+        display: none;
+    }
+    .Contact button{
+        display: none;
+    }
+    .Burger{
+        display: block;
+    }
+    .Header2 {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        background-color: #F5FCFF;
+        padding-top: 20px;
+        height: 700px;
+        gap: 10px;
+    }
+    
+    .TextAboutMe {
+        margin:20px;
+        font-size: 15px;
+        width: auto;
+        height: auto;
+
+    }
+    
+    .ModelContainer {
+        width: 200px;
+        height: 300px;
+    }
+    
+    .TouchButton button {
+        margin:20px;
+        height: 40px;
+        max-width: 100%;
+        border: none;
+        background-color: #394F8B;
+        color: #F5FCFF;
+        cursor: pointer;
+    }
+    .TextAboutMe span {
+        font-size: 20px;
+        font-weight: bold;
+        color: #394F8B;
+    }
+  }

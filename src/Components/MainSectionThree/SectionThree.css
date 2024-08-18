@@ -1,0 +1,65 @@
+
+.SectionThree{
+    height: 800px;
+    text-align: center;
+    margin-top: 40px;
+    color: #394F8B;
+}
+.NameInput{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 60px;
+}
+.NameInput2{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 60px;
+}
+.NameInput3{
+    margin-top: 60px;
+}
+.CheckboxSection{
+    margin-top: 20px;
+}
+.ButtonSection{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+@media only screen and (max-width: 1024px) {
+    .SectionThree {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center; 
+        height: 700px;
+        text-align: center;
+        font-size: 14px;
+        margin-top: 90px;
+        color: #394F8B;
+    }
+    .NameInput {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        margin: 20px;
+        max-width: 90%;
+    }
+    .NameInput2 {
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+        margin: 10px;
+        max-width: 90%;
+    }
+    .NameInput3 {
+        display: flex; 
+        justify-content: center; 
+        margin-top: 0px;
+        margin: 20px;
+        max-width: 90%;
+    }
+}

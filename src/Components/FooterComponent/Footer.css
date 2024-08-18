@@ -1,0 +1,67 @@
+.FooterContainer {
+    height: 220px;
+    background-color: #F5FCFF;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #394F8B;
+    font-weight: bold;
+}
+.LogoFooter {
+    width: 150px;
+    height: auto;
+}
+.InfoItem {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.InfoItem img {
+    margin-right: 10px;
+}
+
+.Countries {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 20px;
+}
+.CopyRight {
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #394F8B;
+    font-weight: bold;
+    border-top: 2px solid #394F8B;
+    width: 100%;
+}
+
+@media only screen and (max-width: 1024px) {
+    .FooterContainer {
+        display: flex;
+        justify-content: center;
+        padding: 20px 10px;
+        height: auto;
+        gap: 20px;
+        flex-wrap: wrap; 
+    }
+    .LogoFooter {
+        height: 120px;
+    }
+
+    .AboutMeInfo {
+        display: flex;
+        justify-content: center;
+        font-weight: bold;
+        padding: 0 10px;
+        margin-top: 0px; 
+
+    }
+    .LanguageContainer {
+        font-weight: bold;
+        margin-top: 20px; 
+        text-align: center;
+    }
+}
