@@ -35,4 +35,6 @@ The portfolio serves as:
 - Framer Motion (optional animations)
   
 ---
+**Live Demo:**
+https://portfolio-react-lovat-one.vercel.app
 
